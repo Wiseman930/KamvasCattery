@@ -1,0 +1,97 @@
+h1{
+    text-align:center;
+}
+.p1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.img1{
+    float: left;
+    width: 250px;
+    height: 125px;
+}
+.img2{
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+.img3{
+    float: left;
+    height:200px;
+    width: 150px;
+}
+.img4{
+    float:right;
+}
+.img5{
+    float:right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.cats{
+    display: flex;
+    flex-direction: row;
+}
+.snowey{
+    flex: 1;
+}
+.paws{
+    flex: 1;
+}
+.pastie{
+    flex: 1;
+}
+.catinfo{
+    display: flex;
+    flex-direction: row;
+
+}
+h3{
+    float: none;
+}
+.cat1{
+    flex: 1;
+}
+.cat2{
+    flex: 1;
+}
+@media screen and (max-width: 900px) {
+    .cats{
+        display: flex;
+        flex-direction: column;
+    }
+    .catinfo{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+  }
+  @media screen and (max-width: 350px){
+    .img1{
+        width: 200px;
+        height: 75px;
+    }
+    .img2{
+        width: 150px;
+        height: 100px;
+    }
+    .img3{
+        height:150px;
+        width: 100px;
+    }
+    .img4{
+        height:150px;
+        width: 150px;
+    }
+    .img5{
+        height:150px;
+        width: 150px;
+    }
+
+  }
