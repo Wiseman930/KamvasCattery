@@ -102,6 +102,11 @@ h3{
     flex: 1;
 }
 @media screen and (max-width: 960px) {
+    .p1{
+        width: 100%;
+        margin-left: 0;
+        margin-right:0 ;
+    }
     .cat1{
         margin-right: 0px;
 
