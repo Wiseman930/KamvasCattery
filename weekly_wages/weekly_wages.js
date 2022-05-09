@@ -26,3 +26,5 @@ console.log( weeklyWage('B', '0,3,8,4,4,6,8'));
 console.log( weeklyWage('C', '8,3,4,4,7,6,4'));
 console.log( weeklyWage('B', '0,3,4,4,6'));
 console.log( weeklyWage('D', '3,4,4,4,6,0,3'));
+
+
