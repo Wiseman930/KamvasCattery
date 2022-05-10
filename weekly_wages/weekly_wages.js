@@ -11,7 +11,7 @@ function weeklyWage(band, weeklyHours) {
          if(band == "C" ){
        sum += week[i]*51;
         }
-         if((week.length < 7 || week.length > 7)){
+         if((week.length < 7 )){
         return 'missing day';
         }
         else if(band !== "A" && band !== "B" && band !== "C"){
